@@ -6,7 +6,7 @@ class ExchangeRates:
         with open(filename, "r") as file:
             reader = csv.DictReader(file)
 
-            # read through the rows in the csv file 
+            # read through the csv so that row contains the most recent exchange rate
             for row in reader:
                 pass
 
